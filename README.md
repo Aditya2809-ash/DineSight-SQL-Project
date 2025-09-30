@@ -147,6 +147,7 @@ FROM reviews rv
 JOIN restaurants r ON rv.restaurant_id = r.restaurant_id
 GROUP BY r.restaurant_name
 HAVING AVG(rv.rating) > 4;
+```
 
 ## 🚀 Key Insights  
 ✔️ Identified top-performing restaurants by reviews and ratings  
